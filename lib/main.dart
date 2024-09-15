@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mindset_final/pages/new_review.dart';
+import 'package:mindset_final/pages/show_reviews.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const NewReviewPage(),
+      home: const ShowReviewsPage(),
     );
   }
 }
